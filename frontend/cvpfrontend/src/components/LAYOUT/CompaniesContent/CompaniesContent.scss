@@ -1,0 +1,17 @@
+.swiper-wrapper{
+    display: flex;
+    align-items: center;
+    cursor: grab;
+}
+
+.img-styles{
+    display: flex;
+    align-items: center;
+    width: 100%; /* O el tamaño que prefieras */
+    height: auto; /* Mantiene la proporción de la imagen */
+    object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor */
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+}

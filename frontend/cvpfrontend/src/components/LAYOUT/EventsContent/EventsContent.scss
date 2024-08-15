@@ -1,0 +1,27 @@
+.custom-table-styles td{
+    font-size: 10px;
+    text-align: center;
+}
+
+.custom-table-styles th{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.ponente-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ponente-container .img-ponente{
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.ponente-container .name-ponente{
+    margin-top: 10px;
+    font-weight: bold;
+}

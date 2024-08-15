@@ -1,15 +1,13 @@
-.container-nav{
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    border-radius: 1rem;
+.container-nav {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
-
 .fix-margin-content{
     margin-left: 2rem !important;
     margin-right: 2rem !important;
 }
 
 .img-size{
-    height: 40px;
+    height: 40px !important;
 }
 
 a {
@@ -46,4 +44,13 @@ a:focus::after {
     opacity: 1;
     transform: translate3d(0, 0.2em, 0);
 }
-  
+
+.navbar-custom ul li{
+    font-size: 14px;
+}
+
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
